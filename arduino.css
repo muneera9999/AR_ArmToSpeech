@@ -1,0 +1,47 @@
+ body {
+        font-family: 'Arial', sans-serif;
+        font-size: 17px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        text-shadow: 8px 8px 10px #0000008c;
+        background-color: #000000;
+        background-image: url("zH1bMV.jpg");
+
+    }
+   h1 {
+        text-align: right;
+        margin: 20px;
+    }
+
+  button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 20px ;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    text-shadow: 8px 8px 10px #0000008c;
+    position: absolute;
+    top: 65%;
+    left: 73%;
+  }
+
+  textarea {
+        text-align: right;
+        width: 50%;
+        height: 200px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+    }
